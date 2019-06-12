@@ -17,9 +17,9 @@ case 1: result = a+b;
 case 2: result = a-b; 
 	printf("The difference of %lf and %lf is: %lf",a,b,result);
 	break;
-case 3: break;
+case 3: result = a*b;
+        printf("The product of %1f and %1f is: %1f",a,b,result);
 default:"invalid choice";
 }
 getch();
 }
-
